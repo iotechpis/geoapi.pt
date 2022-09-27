@@ -124,9 +124,9 @@ function startServer (callback) {
     next()
   })
 
-  app.get('/', function (req, res) {
-    res.redirect(mainPageUrl)
-  })
+//   app.get('/', function (req, res) {
+//     res.redirect(mainPageUrl)
+//   })
 
   shieldsioCounters.loadExpressRoutes(app)
 
