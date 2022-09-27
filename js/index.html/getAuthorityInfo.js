@@ -1,7 +1,7 @@
 /* global fetch, Option, Event */
 
 (() => {
-  const geoApiUrl = 'https://geoapi.pt'
+  const geoApiUrl = 'https://geo.iotech.pt'
 
   const selectMunicipality = document.getElementById('select-municipio')
   const selectFreguesia = document.getElementById('select-freguesia')

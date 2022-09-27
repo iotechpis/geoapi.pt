@@ -11,7 +11,7 @@ const debug = require('debug')('geoapipt:server') // run: DEBUG=geoapipt:server 
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
-const mainPageUrl = 'https://www.geoapi.pt/'
+const mainPageUrl = 'https://www.geo.iotech.pt/'
 const mainTitle = 'GEO API PT'
 const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
 

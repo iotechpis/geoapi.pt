@@ -1,5 +1,5 @@
 {
-  "name": "geoapi.pt",
+  "name": "geo.iotech.pt",
   "version": "1.0.3",
   "description": "Open geographical data for Portugal",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jfoclpf/geoapi.pt.git"
+    "url": "git+https://github.com/jfoclpf/geo.iotech.pt.git"
   },
   "keywords": [
     "portugal"
@@ -19,9 +19,9 @@
   "author": "João Pimentel Ferreira",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/jfoclpf/geoapi.pt/issues"
+    "url": "https://github.com/jfoclpf/geo.iotech.pt/issues"
   },
-  "homepage": "https://www.geoapi.pt/",
+  "homepage": "https://www.geo.iotech.pt/",
   "dependencies": {
     "@turf/turf": "^6.5.0",
     "app-root-path": "^3.1.0",

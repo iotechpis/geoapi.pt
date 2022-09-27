@@ -4,7 +4,7 @@ const appRoot = require('app-root-path')
 const { simpleSitemapAndIndex } = require('sitemap')
 const colors = require('colors/safe')
 
-const mainPageUrl = 'https://geoapi.pt'
+const mainPageUrl = 'https://geo.iotech.pt'
 
 const sitemapsDir = path.join(appRoot.path, 'views')
 

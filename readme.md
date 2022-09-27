@@ -1,5 +1,5 @@
-[![Node.js CI](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml)
-[![CodeQL Security Check](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml)
+[![Node.js CI](https://github.com/jfoclpf/geo.iotech.pt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geo.iotech.pt/actions/workflows/node.js.yml)
+[![CodeQL Security Check](https://github.com/jfoclpf/geo.iotech.pt/actions/workflows/codeql.yml/badge.svg)](https://github.com/jfoclpf/geo.iotech.pt/actions/workflows/codeql.yml)
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 ![Request last hour](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastHour)
 ![Request last day](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastDay)
@@ -24,42 +24,42 @@
       <tr>
          <td>/gps/{latitude},{longitude}</td>
          <td>Distrito, Município e Freguesia através de coordenadas GPS</td>
-         <td><a href="https://geoapi.pt/gps/40.153687,-8.514602">https://geoapi.pt/gps/40.153687,-8.514602</a></td>
+         <td><a href="https://geo.iotech.pt/gps/40.153687,-8.514602">https://geo.iotech.pt/gps/40.153687,-8.514602</a></td>
       </tr>
       <tr>
          <td>/municipio/{município}</td>
          <td>Detalhes sobre Município</td>
-         <td><a href="https://geoapi.pt/municipio/Évora">https://geoapi.pt/municipio/Évora</a></td>
+         <td><a href="https://geo.iotech.pt/municipio/Évora">https://geo.iotech.pt/municipio/Évora</a></td>
       </tr>
       <tr>
          <td>/municipios/{município}/freguesias</td>
          <td>Lista de Freguesias no Município</td>
-         <td><a href="https://geoapi.pt/municipios/porto/freguesias">https://geoapi.pt/municipios/porto/freguesias</a></td>
+         <td><a href="https://geo.iotech.pt/municipios/porto/freguesias">https://geo.iotech.pt/municipios/porto/freguesias</a></td>
       </tr>
       <tr>
          <td>/freguesia/{freguesia}</td>
          <td>Detalhes sobre Freguesia</td>
-         <td><a href="https://geoapi.pt/freguesia/serzedelo">https://geoapi.pt/freguesia/serzedelo</a></td>
+         <td><a href="https://geo.iotech.pt/freguesia/serzedelo">https://geo.iotech.pt/freguesia/serzedelo</a></td>
       </tr>
       <tr>
          <td>/distritos/municipios</td>
          <td>Municípios por Distrito</td>
-         <td><a href="https://geoapi.pt/distritos/municipios">https://geoapi.pt/distritos/municipios</a></td>
+         <td><a href="https://geo.iotech.pt/distritos/municipios">https://geo.iotech.pt/distritos/municipios</a></td>
       </tr>
       <tr>
          <td>/cp/{CP4-CP3}</td>
          <td>Detalhes sobre Código Postal CP4-CP3</td>
-         <td><a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a></a></td>
+         <td><a href="https://geo.iotech.pt/cp/2495-300">https://geo.iotech.pt/cp/2495-300</a></a></td>
       </tr>
       <tr>
       <td>/cp/{CP4}</td>
          <td>Detalhes sobre Código Postal CP4</td>
-         <td><a href="https://geoapi.pt/cp/2495">https://geoapi.pt/cp/2495</a></td>
+         <td><a href="https://geo.iotech.pt/cp/2495">https://geo.iotech.pt/cp/2495</a></td>
       </tr>
     </tbody>
 </table>
 
-<p>Para quaisquer resultados em JSON basta adicionar a variável <code>json=1</code> ao pedido GET (<a href="https://geoapi.pt/cp/2495-300?json=1">exemplo</a>).</p>
+<p>Para quaisquer resultados em JSON basta adicionar a variável <code>json=1</code> ao pedido GET (<a href="https://geo.iotech.pt/cp/2495-300?json=1">exemplo</a>).</p>
 
 # GEO API PT
 
@@ -67,7 +67,7 @@ Provides information on official divisional administrative regions of Portugal (
 
 It also provides information on Postal Codes.
 
-You can use freely the public API at `https://geoapi.pt` (without www). The limit per IP is 100 requests per 15 minutes.
+You can use freely the public API at `https://geo.iotech.pt` (without www). The limit per IP is 100 requests per 15 minutes.
 
 It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
@@ -327,9 +327,9 @@ For example you may request `/cp/1950-449`, `/cp/1950449` or `/cp/1950-449?json=
 
  1. Install NodeJS and git
  2. Clone the project (just the latest version):<br>
-    `git clone --depth=1 https://github.com/jfoclpf/geoapi.pt.git`
+    `git clone --depth=1 https://github.com/jfoclpf/geo.iotech.pt.git`
  3. Enter the newly created directory and install dependencies<br>
-    `cd geoapi.pt && npm ci`
+    `cd geo.iotech.pt && npm ci`
  4. Start the server<br>
     `npm start --port=8080`
 

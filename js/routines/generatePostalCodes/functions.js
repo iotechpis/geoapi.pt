@@ -95,7 +95,7 @@ function createCP4CP3jsonFile (resDirectory, postalCode, cttData, openAddressesD
         // computes also corresponding convex hull polygon
         // from hull polygon, computes centroid and center of mass
         // https://en.wikipedia.org/wiki/Convex_hull_of_a_simple_polygon
-        // https://github.com/jfoclpf/geoapi.pt/issues/27#issuecomment-1222236088
+        // https://github.com/jfoclpf/geo.iotech.pt/issues/27#issuecomment-1222236088
         // https://stackoverflow.com/a/61162868/1243247
 
         // converts to geojson object
@@ -225,7 +225,7 @@ async function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddr
         // computes also corresponding convex hull polygon
         // from hull polygon, computes centroid and center of mass
         // https://en.wikipedia.org/wiki/Convex_hull_of_a_simple_polygon
-        // https://github.com/jfoclpf/geoapi.pt/issues/27#issuecomment-1222236088
+        // https://github.com/jfoclpf/geo.iotech.pt/issues/27#issuecomment-1222236088
         // https://stackoverflow.com/a/61162868/1243247
 
         // converts to, f.ex: [[1,2],[3,4]]

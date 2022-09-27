@@ -4,7 +4,7 @@
    and if that is not available downloads directly from OpenAddresses server.
    We do that to avoid abusing OpenAddresses free services.
    @joao updates the zip file in his server periodically
-   see https://github.com/jfoclpf/geoapi.pt/issues/39#issuecomment-1245582378 */
+   see https://github.com/jfoclpf/geo.iotech.pt/issues/39#issuecomment-1245582378 */
 
 const fs = require('fs')
 const path = require('path')
@@ -15,7 +15,7 @@ const got = require('got')
 const resDirectory = path.join(__dirname, '..', '..', '..', 'res', 'postal-codes')
 const openAddressesDefaultZipFilePath = path.join(resDirectory, 'pt_addresses.csv.zip')
 
-// provided by @joao server see https://github.com/jfoclpf/geoapi.pt/issues/39#issuecomment-1245582378
+// provided by @joao server see https://github.com/jfoclpf/geo.iotech.pt/issues/39#issuecomment-1245582378
 const openAddressesZipFileAlternateUrl = 'https://box.wolan.net/geoapi/pt_addresses.csv.zip'
 
 // see https://github.com/openaddresses/openaddresses/tree/master/sources/pt

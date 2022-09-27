@@ -1,6 +1,6 @@
 /* global fetch */
 (() => {
-  const geoApiUrl = 'https://geoapi.pt'
+  const geoApiUrl = 'https://geo.iotech.pt'
 
   const inputCodigoPostal = document.getElementById('codigo-postal')
   const resultCodigoPostal = document.getElementById('result-codigo-postal')
